@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 
 app.get('/', (req, res) => {
-  res.send('Hello World! RM 338893, deploy by aws')
+  res.send('Hello World! RM 338893, authorization test')
 })
 
 app.listen(port, () => {
